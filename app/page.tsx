@@ -18,14 +18,16 @@ export default function Home() {
           </div>
         </div>*/}
         {/*Chatbubble*/}
-        <div className="flex items-center justify-center mb-5 max-w-1/3">
-          <TypingBubble
-            text="Hallo, liebe Leute, dies ist meine erste eigene Website. 
+        <div className="flex items-center justify-center mb-5 ">
+          <div className="max-w-2xl text-4xl">
+            <TypingBubble
+              text="Hallo, liebe Leute, dies ist meine erste eigene Website. 
             Die Website befindet sich gerade noch in der Entwicklung. 
             Schaut gerne mal von Zeit zu Zeit rein und entdeckt neue Features.
             LG Jonny c:"
-            typingSpeed={150}
-          />
+              typingSpeed={150}
+            />
+          </div>
         </div>
       </article>
     </>
