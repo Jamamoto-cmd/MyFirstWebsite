@@ -3,7 +3,7 @@ import NavBar from "../../components/navbar/navbar";
 export default function FAQ() {
   return (
     <>
-      <div>Frequently Asked Questions</div>
+      <div className="w-full">Frequently Asked Questions</div>
     </>
   );
 }
