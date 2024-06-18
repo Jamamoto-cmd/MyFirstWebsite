@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <article className="w-full min-h-screen h-auto overflow-auto pt-16">
-        {/*round picture*/}
+        {/*round picture
         <div className="flex justify-center items-center mt-16">
           <div className="w-48 h-48 rounded-full overflow-hidden">
             <Image
@@ -16,7 +16,7 @@ export default function Home() {
               className="object-cover"
             />
           </div>
-        </div>
+        </div>*/}
         {/*Chatbubble*/}
         <div className="flex items-center justify-center mb-5">
           <TypingBubble
