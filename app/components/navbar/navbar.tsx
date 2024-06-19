@@ -24,7 +24,7 @@ const NavBar = () => {
 
   return (
     //Optional: fixed bg-background-blur backdrop-filter backdrop-blur-lg bg-opacity-0
-    <nav className="fixed bg-white dark:bg-black text-black dark:text-white w-full shadow-md shadow-black dark:shadow-white">
+    <nav className="fixed bg-white dark:bg-black text-black dark:text-white w-full shadow-md shadow-black dark:shadow-white z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">

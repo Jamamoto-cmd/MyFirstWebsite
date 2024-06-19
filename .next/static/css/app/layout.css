@@ -840,6 +840,12 @@ html {
 .fixed {
   position: fixed;
 }
+.z-50 {
+  z-index: 50;
+}
+.z-auto {
+  z-index: auto;
+}
 .m-4 {
   margin: 1rem;
 }
